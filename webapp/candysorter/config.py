@@ -90,12 +90,12 @@ class DefaultConfig(object):
     TRAIN_LABEL_AREA_HEIGHT = 285
 
     # replace "YOUR-OWN-BUCKET-NAME" to your own bucket name
-    CLOUD_ML_BUCKET        = 'gs://{YOUR-OWN-BUCKET-NAME}'
-    CLOUD_ML_PACKAGE_URIS  = ['gs://{YOUR-OWN-BUCKET-NAME}/package/trainer-0.0.0.tar.gz']
+    CLOUD_ML_BUCKET        = 'gs://candypicker'
+    CLOUD_ML_PACKAGE_URIS  = ['gs://candypicker/package/trainer-0.0.0.tar.gz']
     CLOUD_ML_PYTHON_MODULE = 'trainer.train'
-    CLOUD_ML_TRAIN_DIR     = 'gs://{YOUR-OWN-BUCKET-NAME}/{job_id}/checkpoints'
-    CLOUD_ML_LOG_DIR       = 'gs://{YOUR-OWN-BUCKET-NAME}/logs/{job_id}'
-    CLOUD_ML_DATA_DIR      = 'gs://{YOUR-OWN-BUCKET-NAME}/{job_id}/features'
+    CLOUD_ML_TRAIN_DIR     = 'gs://candypicker/{job_id}/checkpoints'
+    CLOUD_ML_LOG_DIR       = 'gs://candypicker/logs/{job_id}'
+    CLOUD_ML_DATA_DIR      = 'gs://candypicker/{job_id}/features'
 
 
 class DevelopmentConfig(DefaultConfig):
