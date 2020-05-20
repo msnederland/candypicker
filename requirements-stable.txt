@@ -82,7 +82,7 @@ grpcio==1.19.0
 gsutil==4.38
 h5py==2.6.0
 html5lib==0.9999999
-httplib2==0.12.1
+httplib2==0.18.0
 idna==2.8
 ipaddress==1.0.22
 ipykernel==4.10.0
