@@ -21,7 +21,7 @@ Click==7.0
 cloud==2.8.5
 configparser==3.7.4
 crcmod==1.7
-cryptography==2.6.1
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.6
 decorator==4.4.0
