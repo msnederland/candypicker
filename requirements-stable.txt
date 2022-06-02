@@ -81,7 +81,7 @@ grpc-google-pubsub-v1==0.8.1
 grpcio==1.19.0
 gsutil==4.38
 h5py==2.6.0
-html5lib==0.9999999
+html5lib==0.99999999
 httplib2==0.12.1
 idna==2.8
 ipaddress==1.0.22
